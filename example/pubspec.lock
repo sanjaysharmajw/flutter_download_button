@@ -84,7 +84,7 @@ packages:
       path: ".."
       relative: true
     source: path
-    version: "0.0.1"
+    version: "1.0.1"
   flutter_driver:
     dependency: transitive
     description: flutter
@@ -191,7 +191,7 @@ packages:
     source: hosted
     version: "1.16.0"
   open_file:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: open_file
       sha256: d17e2bddf5b278cb2ae18393d0496aa4f162142ba97d1a9e0c30d476adf99c0e
