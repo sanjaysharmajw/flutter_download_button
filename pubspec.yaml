@@ -1,6 +1,6 @@
 name: flutter_download_button
 description: "You can download any file and open file"
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/sanjaysharmajw/flutter_download_button.git
 
 environment:

@@ -1,4 +1,3 @@
-
 import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
@@ -38,9 +37,9 @@ class RealDownloadController extends DownloadController with ChangeNotifier {
     DownloadStatus initialStatus = DownloadStatus.notDownloaded,
     double initialProgress = 0.0,
     required VoidCallback onOpenDownload,
-  })  : _downloadStatus = initialStatus,
-        _progress = initialProgress,
-        _onOpenDownload = onOpenDownload;
+  }) : _downloadStatus = initialStatus,
+       _progress = initialProgress,
+       _onOpenDownload = onOpenDownload;
 
   @override
   final String fileName;

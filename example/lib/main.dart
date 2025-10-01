@@ -19,8 +19,7 @@ class CustomizableDownloadExampleScreen extends StatefulWidget {
       _CustomizableDownloadExampleScreenState();
 }
 
-class _CustomizableDownloadExampleScreenState
-    extends State<CustomizableDownloadExampleScreen> {
+class _CustomizableDownloadExampleScreenState extends State<CustomizableDownloadExampleScreen> {
   late final List<DownloadController> _downloadControllers;
 
   final List<DownloadItemWithConfig> _items = [

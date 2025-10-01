@@ -9,6 +9,7 @@ class DownloadButtonConfig {
     this.openText = 'OPEN',
     this.backgroundColor = const Color(0xFFE5E5EA),
     this.foregroundColor = const Color(0xFF007AFF),
+    this.stopIconColor = const Color(0xFF007AFF),
     this.progressColor = const Color(0xFF007AFF),
     this.progressBackgroundColor = const Color(0xFFE5E5EA),
     this.fetchingColor = const Color(0xFFE5E5EA),
@@ -38,8 +39,11 @@ class DownloadButtonConfig {
   /// Background color of the button
   final Color backgroundColor;
 
-  /// Foreground color (text and icons)
+  /// Foreground color
   final Color foregroundColor;
+
+  /// icons color
+  final Color stopIconColor;
 
   /// Color of the progress indicator
   final Color progressColor;

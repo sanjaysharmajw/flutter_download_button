@@ -26,7 +26,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-customizable_download_button: ^1.0.1
+flutter_download_button: ^1.0.2
 ```
 
 Then run:
@@ -500,7 +500,7 @@ dart pub publish
 ```yaml
 # pubspec.yaml
 dependencies:
-flutter_download_button: ^1.0.1
+flutter_download_button: ^1.0.2
 ```
 
 ```dart

@@ -21,3 +21,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Open downloaded files with system default application
 - Smooth animations and transitions between states
 - Complete documentation and examples with 8 different styles
+
+## [1.0.2] - stop color change
